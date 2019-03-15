@@ -2,11 +2,8 @@
 @import "./768";
 @import "./1200";
 
-
-.container {
-  max-width: 440px;
-  min-width: 440px;
-  padding: 0 20px;
+.block__inner {
+  padding: 0 18px;
   margin: 0 auto;
 }
 
@@ -24,25 +21,10 @@
 
 }
 
-.underlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(24, 28, 39);
-  z-index: -1;
-
-  &:after {
-    position: absolute;
-    display: block;
-  }
-}
-
-
 .header {
+  min-width: 320px;
+  background-color: rgb(24, 28, 39);
   position: relative;
-  height: 612px;
   color: #fff;
   z-index: 1;
   text-align: center;
@@ -58,7 +40,6 @@
     text-transform: uppercase;
     font-size: 13.5px;
     line-height: 19.5px;
-    width: 370px;
     padding-left: 30px;
     padding-right: 20px;
     margin-bottom: 200px;
