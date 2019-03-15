@@ -1,0 +1,20 @@
+@import "./320";
+@import "./768";
+@import "./1200";
+
+
+.block07 {
+  &__wrapper-descr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__descrimage {
+    display: block;
+    max-width: 100%;
+  }
+
+  &__article--sdfirst {
+    order: -1;
+  }
+}
