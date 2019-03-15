@@ -1,3 +1,102 @@
 @import "./320";
 @import "./768";
 @import "./1200";
+
+.block__inner {
+  padding: 0 18px;
+  margin: 0 auto;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-bottom: 20px;
+
+  &__button {
+    background-color: transparent;
+  }
+
+}
+
+.header {
+  min-width: 320px;
+  background-color: rgb(24, 28, 39);
+  position: relative;
+  color: #fff;
+  z-index: 1;
+  text-align: center;
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  &__title-descr {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13.5px;
+    line-height: 19.5px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 200px;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "\003C";
+      color: #17ecff;
+      font-weight: 900;
+    }
+
+    &::after {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      content: "/ \003E";
+      color: #17ecff;
+      font-weight: 900;
+    }
+  }
+
+  &__subtitle {
+    text-transform: uppercase;
+    font-size: 13.5px;
+    line-height: 19.5px;
+    font-weight: 900;
+    text-align: left;
+  }
+
+  &__subtitle-descr { 
+    font-size: 13.5px;
+    line-height: 19.5px; 
+    text-align: left;
+    color: #afb0b3;
+  }
+  
+  &__button {
+    width: 219px;
+    height: 55px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 900;
+    background-color: #ff6b08;
+    box-shadow: 0px 5px 6px 0px rgba(196, 87, 15, 0.26);
+  
+    &:hover {
+      background-color: #17ecff;
+    }
+  } 
+}
+ 
+.header button { 
+  border: none;
+  margin: 0;
+  padding: 0;
+}
