@@ -2,12 +2,6 @@
 @import "./768";
 @import "./1200";
 
-.block__inner {
-  padding: 0 18px;
-  margin: 0 auto;
-}
-
-
 .menu {
   display: flex;
   justify-content: space-between;
@@ -18,21 +12,46 @@
   &__button {
     background-color: transparent;
   }
-
 }
 
 .header {
-  min-width: 320px;
-  background-color: rgb(24, 28, 39);
-  position: relative;
-  color: #fff;
+  position: relative;  
+  color: $maintextcolor;
   z-index: 1;
   text-align: center;
+  
+  background: url('../images/header/bgimage.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: $backgroundcolor;
+
+  &__bgtext {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transform: translateY(-33%);
+    @extend %acrom-extrabold;
+    font-size: 120px;
+    color: $blackcolor;
+    opacity: 0.2;
+    z-index: -2;
+  }
+
+
+  &__wrapper-title {
+    max-width: 424px;
+    margin: 0 auto;
+  }
 
   &__title {
     text-transform: uppercase;
     font-size: 30px;
     margin-bottom: 40px;
+    @extend %acrom-extrabold;
+    font-size: 30px;
+    line-height: 1.3; 
   }
 
   &__title-descr {
@@ -40,53 +59,64 @@
     text-transform: uppercase;
     font-size: 13.5px;
     line-height: 19.5px;
-    padding-left: 30px;
-    padding-right: 20px;
+    letter-spacing: -0.5px;
+    @extend %acrom-bold;
+    padding: 0 20px;
+    margin: 0;
     margin-bottom: 200px;
 
     &::before {
       position: absolute;
-      top: 0;
+      top: 4px;
       left: 0;
       content: "\003C";
       color: #17ecff;
-      font-weight: 900;
+      @extend %acrom-extrabold;
+      font-size: 22.5px;
+      line-height: 11.5px;
     }
 
     &::after {
       position: absolute;
-      bottom: 0;
+      bottom: 4px;
       right: 0;
-      content: "/ \003E";
+      content: "/\003E";
       color: #17ecff;
-      font-weight: 900;
+      @extend %acrom-extrabold;
+      font-size: 22.5px;
+      line-height: 11.5px;
     }
+  }
+
+  &__wrapper-descr {
+    max-width: 374px;
+    margin: 0 auto;
   }
 
   &__subtitle {
     text-transform: uppercase;
     font-size: 13.5px;
     line-height: 19.5px;
-    font-weight: 900;
+    @extend %acrom-extrabold;
     text-align: left;
   }
 
   &__subtitle-descr { 
     font-size: 13.5px;
     line-height: 19.5px; 
+    @extend %acrom-regular;
     text-align: left;
-    color: #afb0b3;
+    color: $greytextcolor;
   }
   
   &__button {
     width: 219px;
     height: 55px;
-    cursor: pointer;
-    color: #fff;
+    color: $maintextcolor;
     text-transform: uppercase;
     font-size: 12px;
-    font-weight: 900;
-    background-color: #ff6b08;
+    @extend %acrom-extrabold;
+    background-color: $maincolor;
     box-shadow: 0px 5px 6px 0px rgba(196, 87, 15, 0.26);
   
     &:hover {
@@ -99,4 +129,7 @@
   border: none;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
+
+
