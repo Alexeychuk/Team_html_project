@@ -1,0 +1,37 @@
+.block__headline{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Acrom";
+    color:$blackcolor; 
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.333;
+      
+}
+
+.block__headline::before{
+    content: "[ ";
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Acrom";
+    color:$blackcolor; 
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.333;
+      
+}
+
+.block__headline::after{
+    content: " ]";
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Acrom";
+    color:$blackcolor; 
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.333;
+      
+}
+
+
+  
