@@ -22,10 +22,8 @@
 
   &__subtitle { 
     max-width: 360px;
-    font-family: 'Acrom',sans-serif;
-    font-weight: 800;
-    font-size: 13.5px;
-    line-height: 19.5px;
+    @extend %acrom-extrabold;
+    @extend %text1319;
   }
 
   &__wrapper-descr {
@@ -39,18 +37,16 @@
 
   &__articletitle {
     display: inline;
-    font-size: 13.5px;
-    line-height: 19.5px;
+    @extend %text1319;
   }
 
   &__articletext { 
     max-width: 340px;
-    font-family: 'Acrom',sans-serif; 
-    font-size: 13.5px;
-    line-height: 19.5px;
+    @extend %acrom-medium;
+    @extend %text1319;
 
     &--bold {
-      font-weight: 800;
+      @extend %acrom-extrabold;
     }
 
     &--lightgrey {
@@ -64,5 +60,5 @@
 }
 
 .block07__wrapper-articletitle {
-  max-width: 200px;
+  max-width: 180px;
 }
