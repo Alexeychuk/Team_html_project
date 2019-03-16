@@ -6,11 +6,15 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 15px;
+  margin-bottom: 15px;
 
   &__button {
-    background-color: transparent;
+    background-color: transparent; 
+  }
+
+  &__icon {
+    margin: 3px 0;
   }
 }
 
@@ -42,12 +46,14 @@
 
   &__wrapper-title {
     max-width: 424px;
-    margin: 0 auto;
+    margin: 0 auto;    
+    margin-bottom: 155px;
   }
 
   &__title { 
-    margin-top: 0;
-    margin-bottom: 40px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 33px;
     @extend %acrom-extrabold;
     color: $maintextcolor;
     font-size: 30px;
@@ -67,14 +73,13 @@
     line-height: 19.5px;
     letter-spacing: -0.5px;
     @extend %acrom-bold;
-    padding: 0 20px;
+    padding: 0 26px;
     margin: 0;
-    margin-bottom: 200px;
 
     &::before {
       position: absolute;
-      top: 4px;
-      left: 0;
+      top: 2px;
+      left: 6px;
       content: "\003C";
       color: #17ecff;
       @extend %acrom-extrabold;
@@ -85,7 +90,7 @@
     &::after {
       position: absolute;
       bottom: 4px;
-      right: 0;
+      right: -4px;
       content: "/\003E";
       color: #17ecff;
       @extend %acrom-extrabold;
@@ -95,8 +100,9 @@
   }
 
   &__wrapper-descr {
-    max-width: 374px;
+    max-width: 364px;
     margin: 0 auto;
+    margin-bottom: 36px;
   }
 
   &__subtitle {
@@ -105,6 +111,8 @@
     line-height: 19.5px;
     @extend %acrom-extrabold;
     text-align: left;
+    margin: 0;
+    margin-bottom: 5px;
   }
 
   &__subtitle-descr { 
@@ -113,36 +121,30 @@
     @extend %acrom-regular;
     text-align: left;
     color: $greytextcolor;
+    margin-bottom: 35px;
+    margin: 0;
   }
   
+  &__wrapper-button {
+    padding-bottom: 40px;
+  }
+
   &__button {
     margin: 0 auto;
+    width: 219px;
+    height: 55px;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 1.5px;
   }
-  // &__button {
-  //   width: 219px;
-  //   height: 55px;
-  //   color: $maintextcolor;
-  //   text-transform: uppercase;
-  //   font-size: 12px;
-  //   @extend %acrom-extrabold;
-  //   background-color: $maincolor;
-  //   box-shadow: 0px 5px 6px 0px rgba(196, 87, 15, 0.26);
 
-  //   @include orange-button
-  
-  //   &:hover {
-  //     background-color: #17ecff;
-  //   }
-  } 
 }
 
 
- 
-// .header button { 
-//   border: none;
-//   margin: 0;
-//   padding: 0;
-//   cursor: pointer;
-// }
-
+.header .menu__button { 
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
 
