@@ -1,0 +1,19 @@
+.slash-text{
+    position: relative;
+    
+    color:$maincolor;
+  }
+  
+.slash-text:before{
+    content: "/";
+    font-size:31px;
+    font-weight:600;
+    color:$blackcolor;
+    position:absolute;
+    display:inline-block;
+    left:-20px;
+    top:0px;
+    height:21px;
+    transform: rotate(15deg);
+    // margin-bottom:2px;
+  }
