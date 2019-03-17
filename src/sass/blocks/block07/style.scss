@@ -3,7 +3,11 @@
 @import "./1200";
 
 .longline {
-  padding-left: 38px;
+  padding-left: 37px;
+}
+
+.visually-sd-hiden {
+  display: none;
 }
 
 .block07 { 
@@ -11,28 +15,42 @@
     margin-bottom: 16px;
   }
 
-  &__wrapper-title-text {
-    padding-left: 40px;
+  &__wrapper-titletext {
+    padding-left: 39px;
+    margin-bottom: 30px;
   }
 
   &__title {
-    max-width: 170px;
-    padding-left: 38px;
+    max-width: 210px;
+    padding-left: 37px;
+    margin: 0;
+    margin-bottom: 10px;
   }
 
   &__subtitle { 
-    max-width: 360px;
+    margin: 0;
+    max-width: 376px;
     @extend %acrom-extrabold;
     @extend %text1319;
   }
+
 
   &__wrapper-descr {
     display: flex;
     flex-direction: column;
   }
 
+  &__descrimage {
+    margin-bottom: 20px;
+  }
+
   &__article {
-    padding: 0 40px;
+    padding: 0 39px;
+  }
+
+  &__wrapper-articletitle {
+    max-width: 200px;
+    margin-bottom: 15px;
   }
 
   &__articletitle {
@@ -40,12 +58,13 @@
     @extend %text1319;
   }
 
-  &__articletext { 
-    max-width: 340px;
+  &__articletext {  
+    margin: 0;
     @extend %acrom-medium;
     @extend %text1319;
 
-    &--bold {
+    &--firstbold {
+      margin-bottom: 10px;
       @extend %acrom-extrabold;
     }
 
@@ -56,9 +75,6 @@
 
   &__article--sdfirst {
     order: -1;
+    margin-bottom: 40px;
   }
-}
-
-.block07__wrapper-articletitle {
-  max-width: 180px;
 }
