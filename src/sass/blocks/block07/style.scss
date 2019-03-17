@@ -36,8 +36,8 @@
 
 
   &__wrapper-descr {
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    flex-wrap: wrap;
   }
 
   &__descrimage {
@@ -51,6 +51,9 @@
   &__wrapper-articletitle {
     max-width: 200px;
     margin-bottom: 15px;
+    font-size: 0; 
+    /* обнуляю фонт сайз специально, наследуется и ужастно работает с инлайн элементами 
+      для проверки отключи этот стиль на 768пх */
   }
 
   &__articletitle {
@@ -60,15 +63,15 @@
 
   &__articletext {  
     margin: 0;
-    @extend %acrom-medium;
     @extend %text1319;
 
     &--firstbold {
       margin-bottom: 10px;
-      @extend %acrom-extrabold;
+      @extend %acrom-bold;
     }
 
     &--lightgrey {
+      @extend %acrom-medium;
       color: $secondgreytextcolor;
     }
   }
