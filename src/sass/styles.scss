@@ -8,6 +8,7 @@
 @import './base';
 @import './mixins';
 @import 'fonts';
+@import './placeholders';
 
 /* Components */
 @import './components/style';
@@ -16,4 +17,4 @@
 // @import './blocks/header/style';
 
 
-@import 'blocks/style.scss';
+@import './blocks/style';
