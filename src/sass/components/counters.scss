@@ -1,0 +1,22 @@
+.counter-list{
+    counter-reset: count-box 0;
+}
+
+.counter-list-item{
+    counter-increment: count-box; 
+    position: relative;
+}
+
+.counter-list-item:before{
+    content:"[ 00" counter(count-box) " ]";
+    position: absolute;
+    left:-50px;
+    top:20px;
+    color:$maintextcolor;
+    background:$maincolor;
+    @extend %acrom-bold;
+    @extend %text1319;
+    transform:rotate(-90deg);
+    line-height:2px;
+    height:10px;
+}

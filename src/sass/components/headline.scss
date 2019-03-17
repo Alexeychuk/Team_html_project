@@ -5,8 +5,7 @@
     color:$blackcolor; 
     font-weight: 800;
     text-transform: uppercase;
-    line-height: 1.333;
-      
+    line-height: 1.333;     
 }
 
 .block__headline::before{
@@ -17,8 +16,7 @@
     color:$blackcolor; 
     font-weight: 800;
     text-transform: uppercase;
-    line-height: 1.333;
-      
+    line-height: 1.333;    
 }
 
 .block__headline::after{
@@ -29,8 +27,7 @@
     color:$blackcolor; 
     font-weight: 800;
     text-transform: uppercase;
-    line-height: 1.333;
-      
+    line-height: 1.333;   
 }
 
 @media (min-width: 768px) {

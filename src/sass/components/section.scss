@@ -1,8 +1,9 @@
-.block__inner {
-  padding:0 18px;
-  margin:0 auto;
-  min-width:320px;
-  max-width:480px;
+.block__inner{
+    padding:0 18px;
+    margin:0 auto;
+
+    min-width:320px;
+   max-width:480px;
 }
 
 @media (min-width: 768px) {
@@ -10,4 +11,3 @@
     max-width: 768px;
     padding: 0 64px;
   }
-}
