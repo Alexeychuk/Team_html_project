@@ -5,6 +5,7 @@
 .block__inner {
   padding: 0 18px;
   margin: 0 auto;
+  max-width: 320px;
 }
 
 
@@ -22,7 +23,7 @@
 }
 
 .header {
-  min-width: 320px;
+  
   background-color: rgb(24, 28, 39);
   position: relative;
   color: #fff;
