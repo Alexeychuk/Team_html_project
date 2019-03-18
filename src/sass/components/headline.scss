@@ -30,5 +30,21 @@
     line-height: 1.333;   
 }
 
+@media (min-width: 768px) {
+  .block__headline {
+    font-size: 27px;
+    line-height: 1.246;
+
+    &::before {
+      font-size: 27px;
+      line-height: 1.246;
+    }
+
+    &::after {
+      font-size: 27px;
+      line-height: 1.246;
+    }
+  }
+}
 
   

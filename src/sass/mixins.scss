@@ -4,5 +4,7 @@
     padding:$verticall-padding $side-padding;
 }
 
-
-
+@mixin text-size ($font-size, $line-height) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
