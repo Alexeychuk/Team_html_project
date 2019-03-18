@@ -4,3 +4,10 @@
     padding:$verticall-padding $side-padding;
 }
 
+<<<<<<< HEAD
+=======
+@mixin text-size ($font-size, $line-height) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+>>>>>>> master
