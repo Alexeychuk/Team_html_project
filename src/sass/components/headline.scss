@@ -2,33 +2,49 @@
     font-size: 18px;
     line-height: 24px;
     font-family: "Acrom";
-    color:$blackcolor; 
+    color:inherit; 
     font-weight: 800;
     text-transform: uppercase;
     line-height: 1.333;     
 }
 
 .block__headline::before{
-    content: "[ ";
+    content: "\005b  ";
     font-size: 18px;
     line-height: 24px;
     font-family: "Acrom";
-    color:$blackcolor; 
+    color:inherit; 
     font-weight: 800;
     text-transform: uppercase;
     line-height: 1.333;    
 }
 
 .block__headline::after{
-    content: " ]";
+    content: " \005d";
     font-size: 18px;
     line-height: 24px;
     font-family: "Acrom";
-    color:$blackcolor; 
+    color:inherit; 
     font-weight: 800;
     text-transform: uppercase;
     line-height: 1.333;   
 }
 
+@media (min-width: 768px) {
+  .block__headline {
+    font-size: 27px;
+    line-height: 1.246;
+
+    &::before {
+      font-size: 27px;
+      line-height: 1.246;
+    }
+
+    &::after {
+      font-size: 27px;
+      line-height: 1.246;
+    }
+  }
+}
 
   
