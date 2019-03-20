@@ -1,13 +1,14 @@
 .slash-text{
     position: relative;
-    
+    font-family: 'Acrom', sans-serif;
     color:$maincolor;
+    font-weight: 500;
   }
   
 .slash-text:before{
     content: "/";
     font-size:31px;
-    font-weight:600;
+    font-weight:500;
     color:$blackcolor;
     position:absolute;
     display:inline-block;
