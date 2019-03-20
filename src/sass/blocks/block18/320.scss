@@ -101,8 +101,8 @@
 }
 
 .block18__lightgrey-text{
-    font-size: 8px;
-    line-height: 12px;
+    font-size: 13px;
+    line-height: 19px;
 }
 
 .block18__textarea{
@@ -113,7 +113,7 @@
 .block18__button{
     @include orange-button(10px, 42px, 0px, 0px);
     width:100%;
-    
+    font-size:7px;
  }
 
  

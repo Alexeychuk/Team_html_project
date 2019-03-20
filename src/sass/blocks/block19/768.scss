@@ -1,11 +1,10 @@
 @media (min-width: 768px) {
+  .block19__inner{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 
-    .block18__inner{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-
-    }
+}
 
     .block19__registration{
         padding:0 38px 0 0;

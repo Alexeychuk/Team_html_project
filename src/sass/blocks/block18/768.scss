@@ -4,13 +4,16 @@
     }
 
     .block18__headline{
-        padding:0 100px 0 170px;
-        width:100%;
-        text-align:right;
+        //padding:0 100px 0 170px;
+        
+        text-align:left;
+        display:block;
+        padding-left:68%;
     }
-    
+
     .block18__inner{
         position: relative;
+        display: block;
     }
     
     .block18-price{
@@ -87,9 +90,10 @@
     }
     
     .block18__textarea{
-        padding:0 40px 0 60px;
-        width: 300px;
+        padding:0 0 0 0;
+        width: 32%;
         margin-left:auto;
+       
         
     }
 
