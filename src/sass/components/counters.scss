@@ -8,7 +8,7 @@
 }
 
 .counter-list-item:before{
-    content:"[ 00" counter(count-box) " ]";
+    content:"\005b  00" counter(count-box) " \005d";
     position: absolute;
     left:-50px;
     top:20px;
