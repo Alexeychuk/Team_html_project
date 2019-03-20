@@ -19,6 +19,14 @@
     transform:rotate(-90deg);
     line-height:2px;
     height:10px;
+
+    @media (min-width:768px){
+        height:7px;  
+        font-size:6px;
+        line-height:7px;
+        left:-30px;
+        top:10px;
+    }
 }
 
 // номера с бирюзовым квадратом
