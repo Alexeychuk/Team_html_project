@@ -4,48 +4,24 @@
     }
 
     .block18__headline{
-        text-align: left;
-        align-self: flex-start;
-        padding:0 0px 0 130px;
-        width:50%;
-        
-    }
-    
-    .block18-price{
-        width:260px; 
+        padding:0 100px 0 170px;
+        width:100%;
+        text-align:right;
     }
     
     .block18__inner{
-        align-items:center;
-        flex-wrap:wrap;
-        max-height:300px;
-        justify-content: space-between;
-        align-content: space-between;
+        position: relative;
     }
     
     .block18-price{
+        width:260px;
+        position: absolute;
+        left:0;
+        top:50%;
         order:-1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         height:192px;
-        margin:30px 0;
-    }
-    
-    .block18-price-bottom-wrapper,.block18-price-top-wrapper{
-        width:58%;
-        display:flex;
-        height:55px;
-    }
-    
-    .block18-price__item{
-        width:50%;
-        font-family: 'Acrom',sans-serif;
-        font-weight:400;
-        height:55px;
-        
-        
+        margin:0 0 0 64px;
+        transform:translateY(-50%);
     }
     
     .block18-price__item-value, .block18-price__item-bluemarker{
@@ -54,8 +30,7 @@
     }
     
     .block18-price__item-value{
-        vertical-align: top;
-         text-align: left
+         text-align: left;
     }
     
     .block18-price__item-bluemarker{
@@ -67,16 +42,9 @@
         line-height: 42px;
         padding-left:28px;
         position: relative;
-    
         &:before{
-        content: "";
-        position: absolute;
-        left: -3px;
         top: 20px;
-        border:0.625px solid $maintextcolor;
-        background: #fff;
         width: 25px;
-        height: 0.1px;
         }
        
     }
@@ -95,7 +63,6 @@
     }
     
     .block18-price__value{
-        
         font-size:38px;
         margin:0;
     }
@@ -106,8 +73,8 @@
     }
     
     .block18__slash-text{
-        font-size:14px;
-        line-height: 21px;
+        font-size:9px;
+        line-height: 13px;
         margin-bottom:30px;
     
     }
@@ -120,14 +87,20 @@
     }
     
     .block18__textarea{
-        padding:0 0 0 0;
-        max-width:50%;
+        padding:0 40px 0 60px;
+        width: 300px;
+        margin-left:auto;
+        
+    }
+
+    .block18__textarea-inner{
+        padding:0 10px 0 30px;
     }
     
     .block18__button{
         @include orange-button(10px, 28px, 0px, 0px);
-        width:200px;
-        
+        width:100%;
+        font-size:6px;
      }
     
 }

@@ -5,7 +5,7 @@
 .block18-price{
     background-color: $backgroundcolor;
     color:$maintextcolor;
-    width:370px;
+    
 }
 
 .block18__inner{
@@ -39,9 +39,6 @@
 .block18-price__item-value, .block18-price__item-bluemarker{
     @extend %text1319;
 }
-
-.block18-price__item-value{vertical-align: top;
-text-align: left}
 
 .block18-price__item-bluemarker{
     color:$backgroundcolor; 
@@ -80,7 +77,6 @@ text-align: left}
 }
 
 .block18-price__value{
-    
     font-size:38px;
     margin:0;
 }
@@ -104,13 +100,19 @@ text-align: left}
     left:-30px;
 }
 
+.block18__lightgrey-text{
+    font-size: 8px;
+    line-height: 12px;
+}
+
 .block18__textarea{
-    padding:0 80px;
+    max-width:65%;
+    padding-left:20px;
 }
 
 .block18__button{
     @include orange-button(10px, 42px, 0px, 0px);
-    width:295px;
+    width:100%;
     
  }
 
