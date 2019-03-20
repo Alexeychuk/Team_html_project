@@ -5,12 +5,27 @@
     &-mob {display: inline;}
   }
 
-  .header {
+  .header { 
     text-align: left;
+    padding-bottom: 96px;
 
     &::before {
       font-size: 235px;
       text-align: center;
+    }
+
+    &::after { 
+      position: absolute;
+      bottom: 0;
+      right: 64px;
+      display: block;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-image: url("../images/header/bg_2guys.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      z-index: -1;
     }
     
     &__wrapper-content {
@@ -61,6 +76,7 @@
     }
 
     &__wrapper-descr {
+      position: relative;
       max-width: 150px;
       margin: 0;
       margin-left: auto;
@@ -82,10 +98,38 @@
     }
   }
   
-  .button {
-    margin: 0;
-  }
-
-
+  .socials {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 26px;
+    width: 52px; 
+    margin: 0 -10px -10px 0; 
   
+    &__link {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;  
+      align-items: center;
+      width: 26px;
+      height: 26px;
+      padding: 8px; 
+
+      &:hover .socials__icon {
+        fill: #17ecff;
+        transition: fill 0.2s linear;
+      }
+    }
+  
+    .socials__icon {
+      display: block;
+      width: 100%;
+      height: 10px;
+      fill: $maintextcolor;
+    
+      transition: fill 0.2s linear;
+    }
+  }
 }
