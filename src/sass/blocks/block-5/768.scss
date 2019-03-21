@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  .wrapp {
+    display: flex;
+    justify-content: center;
+  }
+
+  .title {
+    width: 203px;
+  }
+  .text-description {
+    width: 261px;
+  }
+  .slider {
+    margin-left: 15px;
+
+  }
+  .slide {
+    height: 580px;
+  }
+  .article {
+    height: 550px;
+  }
+}
