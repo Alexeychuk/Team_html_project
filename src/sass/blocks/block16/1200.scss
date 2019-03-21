@@ -1,10 +1,22 @@
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
+
   .block16-price_headline{
-  font-size:7px;
+    font-size:7px;
   }
 
   .block16__headline-wrapper{
   
     padding-left:30px;
+  }
+
+  .block16__first-image{
+    top:0;
+    left:245px;
+  }
+  
+  .block16__second-image{
+    bottom:48px;
+    right:300px;
+    
   }
 }
