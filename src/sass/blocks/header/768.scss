@@ -1,3 +1,91 @@
 @media (min-width: 768px) {
+  .hidden {
+    &-tab {display: none;}
+
+    &-mob {display: inline;}
+  }
+
+  .header {
+    text-align: left;
+
+    &::before {
+      font-size: 235px;
+      text-align: center;
+    }
+    
+    &__wrapper-content {
+      display: flex;
+      margin-bottom: 26px;
+    }
+
+    &__wrapper-title {
+      max-width: 366px;
+      margin: 0;
+    }
+
+    &__title {
+      display: inline;
+      font-size: 45px;
+      max-width: 350px;
+      text-align: left;
+      margin: 0;
+      margin-bottom: 32px;
+
+      &::before, &::after {
+        font-size: 45px;
+      }
+
+      &-descr {
+        color: $maintextcolor;
+        @include text-size(9px,13px);
+        max-width: 220px;
+        margin-left: 40px;
+        margin-top: 32px;
+        padding-left: 18px;
+        padding-right: 24px;
+
+        &::before, &::after {
+          @include text-size(13px,17px);  
+        }
+
+        &::before {
+          top: 0;
+          left: 0;
+        }
+
+        &::after {
+          right: 0; 
+          bottom: 0;
+        }
+      }
+    }
+
+    &__wrapper-descr {
+      max-width: 150px;
+      margin: 0;
+      margin-left: auto;
+    }
+
+    &__subtitle {
+      color: $maintextcolor;
+      @include text-size(10px,17px);  
+
+      &-descr {
+        @include text-size(10px,13px);
+      }
+    }
+     
+    &__button {
+      box-shadow: 0px 7px 10px 0px rgba(196, 87, 15, 0.26);
+      @include orange-button(7px, 10px, 8px, 9.5px);
+      margin-left: 58px;
+    }
+  }
+  
+  .button {
+    margin: 0;
+  }
+
+
   
 }

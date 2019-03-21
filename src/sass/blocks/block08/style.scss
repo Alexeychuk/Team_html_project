@@ -3,25 +3,51 @@
 @import "./1200";
 
 .block08 {
+  &__wrapper {
   position: relative;
   z-index: 1;
 
-  &::before {
-    position: absolute;
-    content: "";
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 250px;  /* temporary */
+    &::before {
+      position: absolute;
+      content: "";
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 250px;  /* temporary */
 
-    background-image: url(../images/block08/block08-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1;
+      background-image: url(../images/block08/block08-bg.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      z-index: -1;
+    } 
   }
 
-  &__title {
+  &__subtitle {
+    color: #000;
+  }
+
+  &__wrappertitle {
     padding-top: 250px; /* temporary */
+    max-width: 305px;
+    margin: 0 auto;
+  }
+
+  &__wrapperdescr {
+    max-width: 305px;
+    margin: 0 auto;
+  }
+
+  &__descr-title {
+    @include text-size(14.5px,1.571); 
+    text-transform: uppercase;
+    padding-left: 24px;
+
+    &::before {
+      left: 0; 
+      top: 8px;
+      margin: 0; 
+    }
   }
 }
+ 
