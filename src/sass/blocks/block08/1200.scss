@@ -1,3 +1,9 @@
 @media (min-width: 1200px) {
-  
+  .block08 {
+    &__wrapper { 
+      &::before { 
+        margin-left: 245px;
+      }
+    }
+  }
 }
