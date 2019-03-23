@@ -1,34 +1,29 @@
 <header class="header">
   <!-- <div class="header__bgtext">GOIT</div> -->
 
-
+  <nav class="menu">
+    <a href="" class="menu__logo">
+      <picture>
+        <source media="(min-width: 768px)" srcset="./images/header/logo_768.png">
+        <source media="(min-width: 320px)" srcset="./images/header/logo.png">
+        <img src="./images/header/logo.png" alt="go it logo">
+      </picture>
+    </a>
+    <button class="menu__button">
+      <svg class="menu__icon hidden-tab">
+        <use href="./images/sprite/menu.svg#icon-menu"></use>
+      </svg>
+      <svg class="menu__icon hidden-mob">
+        <use href="./images/sprite/menu.svg#icon-menu_768"></use>
+      </svg>
+    </button>
+  </nav>
 
   <div class="block__inner">
     <picture>
       <source media="(min-width: 320px)" srcset="">
       <img src="./images/header/bg_2guys_cutted.png" alt="notebook 2guys" class="header__bgimage">
     </picture>
-
-    <nav class="menu">
-      <a href="" class="menu__logo">
-        <picture>
-          <source media="(min-width: 768px)" srcset="./images/header/logo_768.png">
-          <source media="(min-width: 320px)" srcset="./images/header/logo.png">
-          <img src="./images/header/logo.png" alt="go it logo">
-        </picture>
-      </a>
-
-
-
-      <button class="menu__button">
-        <svg class="menu__icon hidden-tab">
-          <use href="./images/sprite/menu.svg#icon-menu"></use>
-        </svg>
-        <svg class="menu__icon hidden-mob">
-          <use href="./images/sprite/menu.svg#icon-menu_768"></use>
-        </svg>
-      </button>
-    </nav>
 
     <div class="header__wrapper-content">
 
@@ -54,22 +49,25 @@
           условиях по приятному графику над интересными задачами
           и получая доход в &#36;&#36;&#36;.
         </p>
-        <div class="socials hidden-mob">
-          <a href="" class="socials__link">
-            <svg class="socials__icon">
-              <use href="./images/sprite/socials.svg#icon-facebook"></use>
-            </svg>
-          </a>
-          <a href="" class="socials__link">
-            <svg class="socials__icon">
-              <use href="./images/sprite/socials.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </div>
       </div>
     </div>
 
     <button class="button header__button ">Приобрести курс</button>
-
   </div>
+
+  <div class="header__footer hidden-mob">
+    <div class="socials">
+      <a href="" class="socials__link">
+        <svg class="socials__icon">
+          <use href="./images/sprite/socials.svg#icon-facebook"></use>
+        </svg>
+      </a>
+      <a href="" class="socials__link">
+        <svg class="socials__icon">
+          <use href="./images/sprite/socials.svg#icon-twitter"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+
 </header>

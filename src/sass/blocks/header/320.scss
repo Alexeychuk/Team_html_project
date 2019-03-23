@@ -1,9 +1,15 @@
+.hidden-mob {
+  display: none;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;  
+  min-width: 320px;
+  max-width: 480px;
   margin: 0 auto;
-  padding-top: 15px;
-  margin-bottom: 15px;
+  padding: 0 18px; 
+  padding-bottom: 15px;
 
   &__button {
     border: none;
@@ -25,6 +31,7 @@
 
 .header {
   position: relative;  
+  padding-top: 15px;
   padding-bottom: 40px;
   color: $maintextcolor;
   z-index: 1;
@@ -142,6 +149,3 @@
   }
 }
 
-.hidden-mob {
-  display: none;
-}

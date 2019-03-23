@@ -6,8 +6,9 @@
   }
 
   .menu {
-    margin-bottom: 50px;
-    padding-top: 20px;
+    max-width: 768px;
+    padding: 0 64px;
+    padding-bottom: 50px;
 
     &__button {
       width: 13px;
@@ -22,10 +23,11 @@
 
   .header { 
     text-align: left;
+    padding-top: 20px;
     padding-bottom: 96px;
 
     &::before {
-      font-size: 235px;
+      @include text-size(236px,100px); 
       text-align: center;
     }
 
@@ -44,22 +46,7 @@
     &__wrapper-content {
       position: relative;
       display: flex;
-      margin-bottom: 26px;
-
-      &::before {
-        position: absolute;
-        bottom: -100px;
-        left: 0;
-        display: block;
-        content: "01 _";
-        color: $maintextcolor; 
-        @include text-family("acrom",400);  
-        @include text-size(13px,10px);
-        text-align: left;
-        transform: rotate(-90deg);
-      }
-      
-      
+      margin-bottom: 26px;      
     }
 
     &__wrapper-title {
@@ -126,17 +113,37 @@
       @include orange-button(7px, 10px, 8px, 9.5px);
       margin-left: 58px;
     }
+
+    &__footer {
+      position: relative;
+      display: block; 
+      max-width: 640px;
+      margin: 0 auto; 
+      
+      &::before {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        display: block;
+        content: "01 _";
+        color: $maintextcolor; 
+        @include text-family("acrom",400);  
+        @include text-size(13px,0.75);
+        text-align: left;
+        transform: rotate(-90deg);
+      }
+    }
   }
   
   .socials {
     position: absolute;
-    bottom: 0;
+    bottom: 60px;
     right: 0;
     display: flex;
     justify-content: space-between;
     height: 26px;
     width: 52px; 
-    margin: 0 -10px -10px 0; 
+    margin: 0 -8px -8px 0; 
   
     &__link {
       box-sizing: border-box;
