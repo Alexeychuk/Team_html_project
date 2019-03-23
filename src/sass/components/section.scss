@@ -11,3 +11,10 @@
     padding: 0 64px;
   }
 }
+
+@media (min-width: 1200px) {
+  .block__inner {
+    max-width: 1200px;
+    padding: 0 245px;
+  }
+}
