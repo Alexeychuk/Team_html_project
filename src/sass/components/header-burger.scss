@@ -42,7 +42,7 @@
   #toggle:checked ~ .nav {
     margin-bottom: 100px;
     pointer-events: auto;
-    transform: translate(50px, 50px);
+    transform: translate(-50px, 50px);
   }
   #toggle:checked ~ .nav .nav-item {
     color: $maintextcolor;
