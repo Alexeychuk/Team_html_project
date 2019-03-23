@@ -1,6 +1,29 @@
 <header class="header">
   <!-- <div class="header__bgtext">GOIT</div> -->
 
+  <div class="burger">
+    <!-- Этот чекбокс даст нам поведение переключателя, он будет скрыт, но работать -->
+    <input id="toggle" type="checkbox">
+    
+    <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении состояния чекбокса, является «братским» элементом для чекбокса -->
+    
+    <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+    <label class="toggle-container" for="toggle">
+    <!-- Если меню открыто, то здесь будет иконка «X», в противном случае просто иконка гамбургера -->
+    <span class="button-toggle"></span>
+    </label>
+    
+    <!-- Навигация -->
+    <nav class="nav">
+    <a rel="nofollow" rel="noreferrer" class="nav-item" href="">Управление</a>
+    <a rel="nofollow" rel="noreferrer" class="nav-item" href="">История</a>
+    <a rel="nofollow" rel="noreferrer" class="nav-item" href="">Статистика</a>
+    <a rel="nofollow" rel="noreferrer" class="nav-item" href="">Настройки</a>
+    </nav>
+    
+    
+  </div>
+
   <div class="block__inner">
 
     <nav class="menu">
