@@ -1,0 +1,25 @@
+.block06 {
+
+&__headline-inner {
+    max-width: 208px;
+    margin: 0 auto;
+}
+
+&__subheadline-inner {
+    max-width: 270px;
+    margin: 0 auto;
+}
+
+&__list-title {
+    @extend %text1319;
+    // letter-spacing: -0.5px;
+    margin: 0;
+
+
+}
+
+
+.block06__list-element {
+    max-width: 284px;
+    margin: 0 auto;
+}
