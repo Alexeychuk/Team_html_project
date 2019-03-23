@@ -1,3 +1,37 @@
-@media (min-width: 320px) {
-    
+.block2__sectioninner-text {
+    padding-top: 42px;
+    padding-bottom: 16px;
+}
+
+.block2__subheadline {
+    box-sizing: border-box;
+    width: 270px;
+    margin:0 auto;
+    margin-top:40px;
+    text-transform: uppercase;
+}
+
+.block2-main-title{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Acrom";
+    color:inherit; 
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.333;  
+    margin-left: -37px;  
+    padding-top: 12px;
+}
+
+.block2__descrimage {
+    display:block;
+    height: 445px;
+    width: 132px;
+}
+  
+.block2__item-propose {
+    box-sizing: border-box;
+    color:$maincolor;
+    text-align: center;
+    padding-bottom: 56px;
 }
