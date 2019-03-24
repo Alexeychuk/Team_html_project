@@ -30,7 +30,7 @@
         @include text-size(9px,15px); 
 
         &::before, &::after {
-          line-height: 15px;
+          @include text-size(15px,15px); 
         }
       }
     } /* header__title end*/
@@ -67,7 +67,7 @@
         @include text-size(9px,11px);
         text-align: left; 
       }
-    }
+    } /* header__footer end*/
 
   } /* .header end */
 

@@ -27,9 +27,9 @@
 
   &__subtitle { 
     margin: 0;
-    max-width: 376px;
-    @extend %acrom-extrabold;
-    @extend %text1319;
+    max-width: 376px; 
+    @include text-family("acrom",800);  
+    @include text-size(13.5px,19.5px);  
   }
 
 
@@ -52,21 +52,21 @@
   }
 
   &__articletitle { 
-    margin: 0;
-    @extend %text1319;
+    margin: 0; 
+    @include text-size(13.5px,19.5px);   
   }
 
   &__articletext {  
-    margin: 0;
-    @extend %text1319;
+    margin: 0; 
+    @include text-size(13.5px,19.5px);  
 
     &--firstbold {
       margin-bottom: 10px;
-      @extend %acrom-bold;
+      @include text-family("acrom",700);  
     }
 
     &--lightgrey {
-      @extend %acrom-medium;
+      @include text-family("acrom",400);  
       color: $secondgreytextcolor;
     }
   }
