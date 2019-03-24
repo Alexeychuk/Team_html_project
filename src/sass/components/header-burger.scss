@@ -8,19 +8,22 @@
     min-width: 320px;
     max-width: 480px;
     text-align:right;
+    padding-bottom: 15px;
   }
 
 @media (min-width: 768px) {
     .burger {
     max-width: 768px;
     padding: 0 64px;
+    padding-bottom: 50px;
   }
 }
 
 @media (min-width: 1200px) {
   .burger {
     max-width: 1200px;
-    padding: 0 245px;
+    padding: 0 35px;
+    padding-bottom: 60px;
   }
   }
   
@@ -40,7 +43,7 @@
   }
   
   #toggle:checked ~ .nav {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     pointer-events: auto;
     transform: translate(-50px, 50px);
   }
@@ -88,9 +91,9 @@
   .button-toggle {
     position: absolute;
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 25px;
+    width: 30px;
+    height: 30px;
+    //margin: 25px 0 25px 25px;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -104,7 +107,7 @@
     position: absolute;
     content: '';
     top: 50%;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 2px;
     background-color: $maintextcolor;
@@ -121,7 +124,7 @@
   /* Меню */
   .nav {
     display: inline-block;
-    margin: 25px 25px 20px;
+   // margin: 25px 25px 20px;
     pointer-events: none;
     transition: 0.5s;
   }
@@ -131,7 +134,7 @@
     text-decoration: none;
     position: relative;
     display: inline-block;
-    float: left;
+    float: right;
     clear: both;
     color: transparent;
     font-size: 14px;
@@ -190,3 +193,6 @@
     transition: 0.5s;
   }
   
+  .menu__logo{
+  float:left;
+  }
