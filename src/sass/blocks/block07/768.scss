@@ -9,6 +9,8 @@
   }
   
   .block07 {
+    padding-bottom: 80px;
+
     &__wrapper-title {
       display: flex;
       margin-bottom: 12px;
@@ -44,7 +46,7 @@
     &__descrimage {
       position: absolute;
       left: 0;
-      bottom: 5px;
+      bottom: 0;
       margin-bottom: 0;
     }
 
