@@ -33,6 +33,7 @@
 
   &__subtitle {
     margin: 0; 
+    @include text-family("acrom",700);  
   }
 
   &__wrapperdescr {
