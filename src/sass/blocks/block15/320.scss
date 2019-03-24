@@ -57,7 +57,7 @@
     margin: 0;
     margin-bottom: 35px;    
     @include text-size(13.5px,19.5px);
-    @include text-family("Acrom",400); 
+    @include text-family("Acrom",700); 
 
     &::before {
       left: 15px;  
