@@ -1,9 +1,15 @@
+.hidden-mob {
+  display: none;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;  
+  min-width: 320px;
+  max-width: 480px;
   margin: 0 auto;
-  padding-top: 15px;
-  margin-bottom: 15px;
+  padding: 0 18px; 
+  padding-bottom: 15px;
 
   &__button {
     border: none;
@@ -25,6 +31,7 @@
 
 .header {
   position: relative;  
+  padding-top: 15px;
   padding-bottom: 40px;
   color: $maintextcolor;
   z-index: 1;
@@ -45,8 +52,8 @@
     width: 100%;
     height: auto;
     transform: translateY(-56%);
-    @extend %acrom-extrabold;
-    font-size: 120px;
+    @include text-family("acrom",800);  
+    @include text-size(120px,70px);    
     color: $blackcolor;
     opacity: 0.2;
     z-index: -2;
@@ -66,48 +73,46 @@
     max-width: 300px;
     margin: 0 auto;
     margin-bottom: 33px;
-    @extend %acrom-extrabold;
-    color: $maintextcolor;
-    font-size: 30px;
-    line-height: 1.333; 
+    @include text-family("acrom",800);  
+    @include text-size(30px,1.3333);   
+    color: $maintextcolor; 
 
     &::before,
     &::after { 
       color: $maintextcolor;
-      font-size: 30px; 
+      @include text-family("acrom",800);  
+      @include text-size(30px,1.3333);   
     }
   }
 
   &__title-descr {
     position: relative;
     text-transform: uppercase;
-    color: $maintextcolor;
-    @extend %text1319;
-    letter-spacing: -0.5px;
-    @extend %acrom-bold;
+    color: $maintextcolor; 
+    @include text-family("acrom",700);  
+    @include text-size(13.5px,19.5px); 
+    letter-spacing: -0.5px; 
     padding: 0 26px;
     margin: 0;
 
     &::before {
       position: absolute;
-      top: 2px;
+      top: 0;
       left: 6px;
       content: "\003C";
       color: #17ecff;
-      @extend %acrom-extrabold;
-      font-size: 22.5px;
-      line-height: 11.5px;
+      @include text-family("acrom",800);  
+      @include text-size(22.5px,19.5px);   
     }
 
     &::after {
       position: absolute;
-      bottom: 4px;
+      bottom: 0;
       right: -4px;
       content: "/\003E";
       color: #17ecff;
-      @extend %acrom-extrabold;
-      font-size: 22.5px;
-      line-height: 11.5px;
+      @include text-family("acrom",800);  
+      @include text-size(22.5px,19.5px);  
     }
   }
 
@@ -120,16 +125,16 @@
   &__subtitle {
     text-transform: uppercase;
     color: $maintextcolor;
-    @extend %text1319;
-    @extend %acrom-extrabold;
+    @include text-family("acrom",800);  
+    @include text-size(13.5px,19.5px);  
     text-align: left;
     margin: 0;
     margin-bottom: 5px;
   }
 
   &__subtitle-descr { 
-    @extend %text1319;
-    @extend %acrom-regular;
+    @include text-family("acrom",400);  
+    @include text-size(13.5px,19.5px);  
     text-align: left;
     color: $greytextcolor;
     margin-bottom: 35px;
@@ -142,6 +147,3 @@
   }
 }
 
-.hidden-mob {
-  display: none;
-}
