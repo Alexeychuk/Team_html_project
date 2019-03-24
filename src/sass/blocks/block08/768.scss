@@ -12,6 +12,10 @@
       &::before {
         background-image: url(../images/block08/block08-bg_768.png);
         background-position: left; 
+
+        @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+          background-image: url(../images/block08/block08-bg_768@2x.png);
+        }
       }
     }
 
