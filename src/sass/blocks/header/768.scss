@@ -6,8 +6,9 @@
   }
 
   .menu {
-    margin-bottom: 50px;
-    padding-top: 20px;
+    max-width: 768px;
+    padding: 0 64px;
+    padding-bottom: 50px;
 
     &__button {
       width: 13px;
@@ -22,10 +23,11 @@
 
   .header { 
     text-align: left;
+    padding-top: 20px;
     padding-bottom: 96px;
 
     &::before {
-      font-size: 235px;
+      @include text-size(236px,100px); 
       text-align: center;
     }
 
@@ -33,31 +35,18 @@
       position: absolute;
       display: block;
       margin: 0;
-      padding: 0;
-      top: -8%;
-      left: 28%;
+      padding: 0; 
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-20%);
       z-index: 0;
     }
+
     
     &__wrapper-content {
       position: relative;
       display: flex;
-      margin-bottom: 26px;
-
-      &::after {
-        position: absolute;
-        bottom: -100px;
-        left: 0;
-        display: block;
-        content: "01 _";
-        color: $maintextcolor; 
-        @include text-family("acrom",400);  
-        @include text-size(13px,10px);
-        text-align: left;
-        transform: rotate(-90deg);
-      }
-      
-      
+      margin-bottom: 26px;      
     }
 
     &__wrapper-title {
@@ -80,7 +69,7 @@
 
       &-descr {
         color: $maintextcolor;
-        @include text-size(9px,13px);
+        @include text-size(8px,13px);
         max-width: 220px;
         margin-left: 40px;
         margin-top: 32px;
@@ -88,7 +77,7 @@
         padding-right: 24px;
 
         &::before, &::after {
-          @include text-size(13px,17px);  
+          @include text-size(13px,13px);  
         }
 
         &::before {
@@ -101,7 +90,7 @@
           bottom: 0;
         }
       }
-    }
+    } /* .header__title end */
 
     &__wrapper-descr {
       position: relative;
@@ -124,17 +113,38 @@
       @include orange-button(7px, 10px, 8px, 9.5px);
       margin-left: 58px;
     }
-  }
+
+    &__footer {
+      position: relative;
+      display: block; 
+      max-width: 640px;
+      margin: 0 auto; 
+      
+      &::before {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        display: block;
+        content: "01 _";
+        color: $maintextcolor; 
+        @include text-family("acrom",400);  
+        @include text-size(13px,0.75);
+        text-align: left;
+        transform: rotate(-90deg);
+      }
+    } /* .header__footer end */
+
+  } /* .header end */
   
   .socials {
     position: absolute;
-    bottom: 0;
+    bottom: 60px;
     right: 0;
     display: flex;
     justify-content: space-between;
     height: 26px;
     width: 52px; 
-    margin: 0 -10px -10px 0; 
+    margin: 0 -8px -8px 0; 
   
     &__link {
       box-sizing: border-box;
