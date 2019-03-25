@@ -70,6 +70,7 @@
   color: $maintextcolor;
   border: 0.625px solid rgb(27, 67, 113);
   width: 100%;
+  cursor: pointer;
 }
 
 .block__inner-footer-two {
@@ -94,8 +95,9 @@
 }
 
 .footer__info-link {
-  text-decoration: none;
+ text-decoration: none;
   color: #65666a;
+
 }
 
 .footer__img-end-wrapper {
