@@ -1,0 +1,86 @@
+
+
+
+.block15{
+  padding-bottom:75px;
+}
+
+.block15__headline-wrapper{
+  padding:0 17%;
+}
+
+.block15__img-wrapper{
+  object-fit: cover;
+  padding-bottom:20px;
+
+}
+
+.block15__motivation-article{
+  padding:0 17%;
+}
+
+.block15-course-features__list{
+  padding:0 17% 0 25%;
+}
+
+.block15__headline-wrapper{
+  display:none;
+}
+
+
+.block15-course-features__headline{
+    padding: 0px 24% 19px;
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 481px;
+}
+
+.block15-course-features__list-item-headline{
+  margin:0;
+  padding-bottom:10px;
+}
+
+.block15-course-features__list-item-text{
+  margin:0;
+}
+
+.block15-course-features__list-item{
+  padding-bottom:20px;
+}
+
+.block15__first-image-inner{
+  max-width: 100%;
+}
+
+.block15__sectioninner-footer{
+  padding:0 14%;
+
+  flex-direction: column;
+}
+
+.block15__anderpicture-text--lightgrey {
+  display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin-bottom: 26px;
+
+    margin-left: -6px;
+    width: 175px;
+}
+
+.block15__button{
+  @include orange-button(11px, 50px, 40px, 0);
+  display:inline-block;
+  margin:0;
+  width:208px;
+  align-self:center;
+  padding: 0px;
+  margin-left: -35px;
+}
+.slash-text:before {
+  top: -14px;
+}
+.photo-student {
+  margin-left: 2000px;
+  height: 0px;
+}
