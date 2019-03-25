@@ -4,8 +4,11 @@
 @import './normalize';
 
 /* Base */
+
 @import './base';
+@import './mixins';
 @import 'fonts';
+@import './placeholders';
 
 /* Components */
 @import './components/style';
@@ -14,9 +17,4 @@
 // @import './blocks/header/style';
 
 
-@import './blocks/header/style';
-
-
-@import './blocks/block07/style';
-
-@import './blocks/block08/style';
+@import './blocks/style';

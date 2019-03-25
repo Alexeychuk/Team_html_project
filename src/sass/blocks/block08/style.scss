@@ -2,26 +2,3 @@
 @import "./768";
 @import "./1200";
 
-.block08 {
-  position: relative;
-  z-index: 1;
-
-  &::before {
-    position: absolute;
-    content: "";
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 250px;  /* temporary */
-
-    background-image: url(../images/block08/block08-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1;
-  }
-
-  &__title {
-    padding-top: 250px; /* temporary */
-  }
-}
