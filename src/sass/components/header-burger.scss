@@ -121,7 +121,7 @@
     height: 2px;
     background-color: $maintextcolor;
     border-radius: 5px;
-    transition: 0.5s;
+    transition: 0.3s;
   }
   .button-toggle:before {
     transform: translateY(-50%) rotate(45deg) scale(0);
@@ -196,10 +196,10 @@
     top: 50%;
     left: 1px;
     width: 130%;
-    height: 3px;
+    height: 4px;
     background-color: $maintextcolor;
     transform: translateY(-50%) scaleY(5);
-    transition: 0.2s;
+    transition: 0.3s;
   }
   
   .menu__logo{
