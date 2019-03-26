@@ -1,5 +1,5 @@
 .block2 {
-    padding-bottom: 56px;
+    //padding-bottom: 56px;
 }
 
 .block2__sectioninner-text {
@@ -36,5 +36,6 @@
 .block2__item-propose {
     box-sizing: border-box;
     color:$maincolor;
-    text-align: center;
+    text-align: center; 
+    padding:0 80px;
 }
