@@ -2,10 +2,7 @@
 @import "./768";
 @import "./1200";
 
-.longline {
-    padding-left: 37px;
-}
-  
+
 .visually-sd-hiden {
     display: none;
 }
@@ -44,7 +41,7 @@
 }
 
 @media (min-width: 768px) {
-  .bblock9-main-title {
+  .block9-main-title {
     font-size: 27px;
     line-height: 1.246;
   }
