@@ -1,0 +1,31 @@
+.block9__main-title {
+    width: 200px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.block9__sectioninner-text {
+    margin: 0 18px;
+}
+
+.block9__sectioninner-items {
+    margin: 0 40px 0 40px;
+}
+
+.block9__list {
+    box-sizing: border-box;
+    position: relative;
+    padding: 0;
+}
+
+.block9 {
+    .counter-list-number-cyan__item--large, .counter-list-number-cyan__item{
+        left: 40px;
+    }
+}
+
+.block9 {
+    .slash-text:before {
+        top: -2px;
+    }
+}
