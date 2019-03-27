@@ -1,63 +1,85 @@
 @media (min-width: 768px) {
-    .block9 {
-        text-align:justify;
-        
-    }
+  .block9__inner {
+    display: flex;
+    height: 300px;
+  }
 
-    .block9__sectioninner-title {
-        display: inline-block;
-        padding-right: 100px;
-        margin: 0;
-        width: 50%;
-        height: 294px;
-        text-align: left;
-        vertical-align: top;
-    }
+  .block9__sectioninner-title {
+    padding: 0;
+    width: 50%;
+  }
 
-    .block9__main-title {
-        padding: 0;
-        margin: 0 auto;
-        font-size: 27px;
-        line-height: 1.2;
-    }
+  .block9__main-title {
+    padding: 0;
+    font-size: 24px;
+    line-height: 48px;
+    padding-bottom: 14px;
+    width: 50%;
+  }
 
-    .block9__sectioninner-text {
-        padding-top: 30px;
-        margin: 0 10px 0 10px;
-    }
+  .block9__sectioninner-items {
+    width: 50%;
+  }
 
-    
+  .block9__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: flex-end;
+  }
 
-    .block9__sectioninner-items {
-        display: inline-block;
-        padding-top:45px;
-        padding: 0;
-        margin: 0;
-        width: 50%;
-        text-align: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+  .block9__item {
+    width: 34%;
+    margin: 0;
+    padding: 0;
+  }
 
-    .block9__list {
-        display: flex;
-        flex-direction: row; 
-        justify-content: space-between; 
-        margin: 0;  
-        padding: 0;
-        flex-wrap: wrap;
-    }
+  .block9__item:before {
+    left: -40px;
+    top: -12px;
+    font-size: 16px;
+  }
 
-    .block9__item {
-        order: 1;
-        padding-right: 20px;
-        flex-basis: 40%;
-        padding-right: 30px;
-        text-align: left;
-    }
+  .block9__item::after {
+    left: -22px;
+    top: 9px;
+    width: 7px;
+    height: 7px;
+  }
 
-    .block9__item-conclusion {
-        margin: 0;
-        text-align: left;
+  .block9__item:nth-child(2n + 1) {
+    margin-right: 30px;
+  }
+
+  .block9__item:nth-child(2-n) {
+    margin-bottom: 30px;
+  }
+
+  .block9__sectioninner-items {
+    padding: 0;
+  }
+
+  .block9__sectioninner-text {
+    padding-right: 45%;
+    padding-left: 17%;
+
+    &:before {
+      width: 35px;
     }
+  }
+
+  .block9__sectioninner-title:before {
+    font-size: 320px;
+    top: -100px;
+    left: 55px;
+  }
+
+  .block9__sectioninner-title:after {
+    font-size: 70px;
+    top: 63px;
+    left: 112px;
+  }
 }
