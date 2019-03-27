@@ -9,12 +9,21 @@
                 переезжать?
             </p>
             <picture class="block2__image">
-                    <source media="(min-width: 768px)"
-                    srcset="../images/block2/block2-768.jpg">
-                    <source media="(min-width:1200px)"
-                    srcset="../images/block2/block2-1200.jpg">
-                    <img src="../images/block2/block2-320.jpg"
-                alt="tired person at the laptop" title="tired person">
+                <source media="(min-width: 1200px)"
+                sizes="286px"
+                srcset="../images/block2/block2-1200.jpg 286w,
+                        ../images/block2/block2-1200@2x.jpg 574w">
+                <source media="(min-width:768px)"
+                sizes="258px"
+                srcset="../images/block2/block2-768.jpg 258w,
+                        ../images/block2/block2-768@2x.jpg 516w">
+                <source media="(min-width:300px)"
+                sizes="445px"
+                srcset="../images/block2/block2-320.jpg 445w,
+                        ../images/block2/block2-320@2x.jpg 890w">
+
+                <img 
+                    alt="tired person at the laptop" title="tired person">
             </picture>
             </div>
                 <div class="block2__title-block2">
