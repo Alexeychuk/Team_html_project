@@ -1,7 +1,7 @@
 
 .burger {
     position: relative;
-    background-color: rgba(0,0,0,0);
+    //background-color: rgba(0,0,0,0);
     overflow: hidden;
     padding: 0 18px;
     margin: 0 auto;
@@ -9,6 +9,8 @@
     max-width: 480px;
     text-align:right;
     padding-bottom: 15px;
+    //background: url('../images/header/bgimage.png');
+    background-origin:border-box;
   }
 
 @media (min-width: 768px) {

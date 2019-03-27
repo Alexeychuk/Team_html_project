@@ -5,6 +5,7 @@
     padding-bottom: 60px;
   }
 
+ 
   .header {
     &::before {
       @include text-size(262px,113px); 
