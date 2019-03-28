@@ -1,72 +1,129 @@
-.text {}
-
-.title {
-  font-size: 37px;
+.block-5_title {
+  font-size: 20px;
   color: $blackcolor;
-  @extend %acrom-bold;
-  margin-left: 39px;
+  @extend %acrom-extrabold;
+  margin-left: 120px;
+  display: flex;
+  justify-content: center;
+  width: 223px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block-5_description {
   display: flex;
   justify-content: center;
 }
-.description {
-  display: flex;
-  justify-content: center;
-}
-.rectangle {
+
+
+.block-5_rectangle {
   background: $blackcolor;
   width: 20px;
-  height: 3px;
-  margin-left: 5px;
+  height: 2px;
+  margin-left: 30px;
   margin-right: 15px;
-  margin-top: 37px
+  margin-top: 22px;
 }
-.text-description {
-  font-size: 21.587px;
+.block-5_text-description {
+  font-size: 14.587px;
   @extend %acrom-regular;
   color: $blackcolor;
-  width: 427px;
-  line-height: 1.3;
+  width: 284px;
+  line-height: 1.444;
+  font-weight: 600;
 
 }
-.bgr {
+.block-5_bgr {
   background:$blackcolor;
   color: $maintextcolor;
 }
-.description {
+.block-5_description {
   display: flex;
   margin-bottom: 30px;
+  margin-top: -8px;
 }
-.slider {
+.block-5_slider {
   display: flex;
   justify-content: center;
 }
-.slide {
+.block-5_slide {
   display: flex;
-  width: 450px;
+  width: 329px;
+  height: 241px;
   box-shadow: 0px 15px 40px -4px $secondgreytextcolor;
-  margin-left: 5px;
+  margin-left: 27px;
 
 }
-.photo {
+.block-5_photo {
     margin-top: 18px;
-    margin-right: 45px;
-    margin-left: 30px;
+    margin-right: 17px;
+    margin-left: 18px;
 }
 img {
-  height: 139px;
-  max-width: 139px;
+  height: 60px;
+  margin-bottom: 10px
+  // max-width: 139px;
 }
-.article {
-  font-size: 14px;
-  @extend %acrom-regular;
+.block-5_article {
+  font-size: 7px;
+  margin-top: 16px;
+  @extend %acrom-bold;
   color: $secondgreytextcolor;
   overflow-y: scroll;
-  height: 300px;
+  height: 206px;
+  line-height: 1.714;
 }
-.name {
-  font-size: 14px;
-  @extend %acrom-regular;
+#block-5_scroll::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  background: $greytextcolor;
+}
+#block-5_scroll::-webkit-scrollbar-thumb {
+  width: 3px;
+  height: 3px;
+  background: $blackcolor;
+}
+
+
+.block-5_name {
+  font-size: 6px;
+  @extend %acrom-extrabold;
   color: $blackcolor;
-  font-weight: bold;
+  margin-left: 1px;
   text-transform: uppercase;
+}
+.block-5_slider_pointer {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  margin-left: 30px;
+  margin-top: -12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block-5_pointer_numbering {
+  display: flex;
+  text-decoration: none;
+}
+.block-5_number {
+  margin-top: 5px;
+  margin-left: 22px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.block-5_number:hover {
+  font-size: 15px;
+  margin-top: 0px;
+}
+.block-5_pointer_arrows {
+  display: flex;
+  text-decoration: none;
+  margin-right: 11px;
+}
+.block-5_arrow {
+  background-color: $blackcolor;
+  margin-top: -5px;
+  border: 1px solid $greytextcolor;
+  height: 21px;
+  max-width: 21px;
+  cursor: pointer;
 }

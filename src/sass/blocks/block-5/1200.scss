@@ -1,13 +1,20 @@
 @media (min-width: 1200px) {
-  .slider {
+  .block-5_slider {
     margin-left: 60px;
 
   }
-  .slide {
-    width: 685px;
+  .block-5_slide {
+    width: 328px;
+    height: 240px;
   }
-  .article {
-    height: 550px;
-    width: 1000px;
+  .block-5_article {
+    height: 206px;
+
+  }
+  .block-5_pointer_numbering {
+    margin-left: 122px;
+  }
+  .block-5_slider_pointer {
+    margin-top: -35px;
   }
 }
