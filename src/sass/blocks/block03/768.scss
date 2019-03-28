@@ -26,6 +26,12 @@
     flex-wrap:wrap; 
     margin:0;
     background: url(../images/block03/block03__bg.png) 100% 100% no-repeat;
+    @media (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi){
+    background: url(../images/block03/block03__bg@2x.png) 120% 100% no-repeat;
+    background-size:260px;
+    
+    }
     &-item{
       flex-basis:34%;
       &:before{
