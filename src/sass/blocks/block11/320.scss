@@ -79,12 +79,8 @@ background-image: url("../images/block11/block11-item2-bg480.png");
 background-position: right bottom;
 }
 
+.block11-course-features__list-item:last-child,
 .block11-course-features__list-item:nth-child(3){
-background-image: url("../images/block11/block11-item3-bg480.png");
-background-position: right 28%;
-}
-
-.block11-course-features__list-item:last-child{
 background-image: url("../images/block11/block11-item3-bg480.png");
 background-position: right 28%;
 }
@@ -94,23 +90,21 @@ background-position: right 28%;
     .block11-course-features__list-item:first-child{
         background-image: url("../images/block11/block11-item1-bg480@2x.png");
         background-size: 28%;
+        
         }
         
         .block11-course-features__list-item:nth-child(2){
         background-image: url("../images/block11/block11-item2-bg480@2x.png");
         background-size: 23%;
         
+        
         }
         
+        .block11-course-features__list-item:last-child,
         .block11-course-features__list-item:nth-child(3){
         background-image: url("../images/block11/block11-item3-bg480@2x.png");
         background-size: 26%;
-
-        }
         
-        .block11-course-features__list-item:last-child{
-        background-image: url("../images/block11/block11-item3-bg480@2x.png");
-        background-size: 26%;
         }
 }
 
