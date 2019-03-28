@@ -1,10 +1,16 @@
 .block11 *{
   margin:0; 
-  
 }
+
+
 
 .block11{
   padding-bottom: 50px;
+  
+}
+
+.block11__inner{
+    margin: 0 auto;
 }
 
 .block11__headline{
@@ -112,6 +118,7 @@ background-position: right 28%;
  counter-reset: count-box 0;
 }
 
+
 .block11__counter-list-element{
     padding-right:16.25%;
     position: relative;
@@ -127,12 +134,27 @@ background-position: right 28%;
         font-weight:700;
         transform: rotate(-90deg);
         font-size:45px;
-        
+        z-index:-1;
         @media (min-width: 768px) {
-       
+        left: 91px;
+        top: 28px;
         
         }
     }
+}    
+
+.block11__counter-list-element:nth-child(2){
+    &:before {
+        top: 62px;
+        @media (min-width: 768px) {
+        top: 28px; 
+        }
+    }
+} 
+
+
+.block11-course-features__list-item-text--padding{
+    padding-right:10%;
 }
 
 
