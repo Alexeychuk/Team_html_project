@@ -8,3 +8,8 @@
   font-size: $font-size;
   line-height: $line-height;
 }
+
+@mixin text-family ($font-family, $font-weight) {
+  font-family: $font-family;  
+  font-weight: $font-weight; 
+}
