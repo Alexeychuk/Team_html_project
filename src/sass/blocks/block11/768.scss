@@ -1,9 +1,14 @@
 @media (min-width: 768px) {
 
+.block11{
+    padding-bottom: 90px;
+    
+}
+
 .block11__inner {
     display:grid;
     grid-template-columns:  34.882% 8.7% 4.54% 20.35% 20.35%  11.11%;
-    grid-template-rows:  60px 30px 80px 28px 38px 66px 200px; 
+    grid-template-rows:  60px 30px 80px 28px 40px 66px 200px; 
 }
 
 .block11__headline{
@@ -19,7 +24,7 @@
   grid-column-end: 2;
   grid-row-start: 5;
   grid-row-end: 6;
-  padding:0px 0 0 31%;
+  padding:0px 0 0 22%;
 }
 
 .block11__underpicture:before{
@@ -51,6 +56,7 @@
     grid-row-start: 3;
     grid-row-end: 6;
     padding:0;
+   
   }
 
   .block11__image-inner{
