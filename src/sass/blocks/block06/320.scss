@@ -2,18 +2,17 @@
     padding-bottom: 46px;
 }
 
-
 .block06__headline-inner {
-    max-width: 234px;
-    margin: 0 auto;
-    padding-left: 34px;
+    max-width: 66.875%;
+    margin: 0 26.666%;
+    // padding-left: 24px;
 
 }
 
 .block06__subheadline-inner {
-    max-width: 234px;
+    max-width: 59.166%;
     // padding-left: 10px;
-    margin: 0 auto;
+    margin: 0 16.666%;
     padding-bottom: 30px;
 }
 
@@ -21,20 +20,24 @@
     margin: 0;
 }
 
-.block06_list-title {
+.block06__list-title {
     @extend %text1319;
     margin: 0;
     padding-bottom: 10px;
 }
 
-.block06_list {
+.block06__list {
     padding-left: 14px;
-    margin: 0 auto;
-    max-width: 320px;
+    margin: 0 auto;  
+    max-width: 100%;
 }
 
 .block06__list-text {
     margin: 0;
     padding-bottom: 10px;
+}
+
+.block06 {
+    padding-bottom: 46px;
 }
 

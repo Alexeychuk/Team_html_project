@@ -70,6 +70,7 @@
   color: $maintextcolor;
   border: 0.625px solid rgb(27, 67, 113);
   width: 100%;
+  cursor: pointer;
 }
 
 .block__inner-footer-two {
@@ -91,13 +92,16 @@
   padding-right: 10px;
   font-size: 6px;
   line-height: 23px;
-}
-
-.footer__info-link {
   text-decoration: none;
   color: #65666a;
 }
 
+
+
 .footer__img-end-wrapper {
   padding: 5px 0;
 }
+
+
+:any-link { color: white;text-decoration: none; }
+:any-link:active { color: $maincolor; }

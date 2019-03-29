@@ -1,5 +1,9 @@
 @media (min-width: 1200px) {
 
+  .block16__headline{
+    font-size: 30px;
+  }
+
   .block16-price_headline{
     font-size:7px;
   }
@@ -15,8 +19,12 @@
   }
   
   .block16__second-image{
-    bottom:48px;
+    bottom:40px;
     right:300px;
     
+  }
+
+  .block16__motivation-article{
+    padding-bottom:40px;
   }
 }
