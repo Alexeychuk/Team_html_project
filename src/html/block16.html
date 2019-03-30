@@ -17,19 +17,28 @@
     <picture class="block16__first-image">
       <source
         media="(min-width: 1200px)"
-        srcset="./images/block16/block16__first-img-1200.jpg"
+        sizes="306px"
+        srcset="./images/block16/block16__first-img-1200.jpg 306w,
+                ./images/block16/block16__first-img-1200@2x.jpg 612w"
       />
       <source
         media="(min-width: 768px)"
-        srcset="./images/block16/block16__first-img-768.jpg"
+        sizes="273px"
+        srcset="./images/block16/block16__first-img-768.jpg 273w,
+                ./images/block16/block16__first-img-768@2x.jpg 546w"
       />
+      <source 
+      media="(min-width: 300px)" 
+      sizes="445px"
+      srcset="./images/block16/block16__first-img-480.jpg 445w,
+             ./images/block16/block16__first-img-480@2x.jpg 890w" />
       <img
         class="block16__first-image-inner"
-        src="./images/block16/block16__first-img-480.jpg"
+        
         alt="coding place"
       />
     </picture>
-
+    
     <article class="block16__motivation-article">
       <ul class="list block16__underpicture-list">
         <li class="block16__underpicture-list-item">
@@ -71,11 +80,18 @@
     <picture class="block16__second-image">
       <source
         media="(min-width: 1200px)"
-        srcset="./images/block16/block16__second-img-1200.jpg"
+        sizes="251px"
+        srcset="./images/block16/block16__second-img-1200.jpg 251w,
+                ./images/block16/block16__second-img-1200@2x.jpg 502w"
+      />
+      <source
+        media="(min-width: 768px)"
+        sizes="226px"
+        srcset="./images/block16/block16__second-img-768.jpg 226w,
+                ./images/block16/block16__second-img-768@2x.jpg 452w"
       />
       <img
         class="block16__second-image-inner"
-        src="./images/block16/block16__second-img-768.jpg"
         alt="coding place"
       />
     </picture>

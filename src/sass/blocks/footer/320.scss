@@ -105,3 +105,11 @@
 
 :any-link { color: white;text-decoration: none; }
 :any-link:active { color: $maincolor; }
+
+.footer__button:active {
+  background-color: rgb(6, 164, 178);
+}
+.footer__button:hover,
+.footer__button:focus {
+  background-color: rgb(23, 236, 255);
+}

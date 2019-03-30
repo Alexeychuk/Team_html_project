@@ -17,15 +17,25 @@
     <picture class="block10__first-image">
       <source
         media="(min-width:1200px)"
-        srcset="../images/block10/block10__image-1200.jpg"
+        sizes="306px"
+        srcset="./images/block10/block10__image-1200.jpg 306w,
+                ./images/block10/block10__image-1200@2x.jpg 612w"
       />
       <source
         media="(min-width:768px)"
-        srcset="../images/block10/block10__image-768.jpg"
+        sizes="274px"
+        srcset="./images/block10/block10__image-768.jpg 274w,
+                ./images/block10/block10__image-768@2x.jpg 548w"
+      />
+
+      <source
+        media="(min-width:300px)" 
+        sizes="446px"
+        srcset="./images/block10/block10__image-480.jpg 446w,
+                ./images/block10/block10__image-480@2x.jpg 892w"
       />
       <img
         class="block10__first-image-inner"
-        src="../images/block10/block10__image-480.jpg"
         alt="man at the computer"
         title="man at the computer"
       />
