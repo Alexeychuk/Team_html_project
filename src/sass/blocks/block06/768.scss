@@ -1,32 +1,41 @@
 @media (min-width:768px) {
+
+    .block06{
+        padding-bottom:96px;
+    }
+
     .block06__inner{
         display: flex;
         justify-content: flex-end;
         position: relative;
+
+        // background: url('../images/block06/block06__image768.png') no-repeat 25% 50%;
+        // background-size: contain;
+    
     }
 
     .block06__subinner{
         padding:0 2.5% 0 0;   
-        width:48.9%;
+        width:46.9%;
     }
 
     .block06__image{
         display: inline-block;
         position: absolute;
-        top:0;
-        left:0;
+        top: -55px;
+        left: 10%;
 
         &:before {
             content: "hard";
             text-transform: uppercase;
             position: absolute;
             left: 0px;
-            top: 0px;
+            top: 33.5%;
             color: #f7f7f7;
             font-family: "Futura", sans-serif;
             font-weight: 700;
-            transform: rotate(-90deg);
-            font-size: 200px;
+            transform: rotate(90deg);
+            font-size: 155px;
             z-index: -1;
             
           }
@@ -38,12 +47,17 @@
 
     .block06__headline {
     padding: 0 0 5.38% 0;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 33.6px;
     }
 
     .block06__subheadline{
         padding:0 29.6% 0 15.15%;
+    }
+
+    .block06__list{
+        padding-right:21.83%;
+        padding-left:7%;
     }
     
     .block06__list-element {
