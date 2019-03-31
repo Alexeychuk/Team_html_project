@@ -1,21 +1,49 @@
-<section class="block-5">
-    <div class="block-5_sectioninner"><div class="block-5_wrapp">
-        <div class="block-5_text">
-          <p class="block-5_title">[ СМОТРИ, КАК ОБЫЧНЫЕ ЛЮДИ ... ]</p>
-          <div class="block-5_description">
-            <p class="block-5_rectangle"></p>
-            <p class="block-5_text-description ">Которые даже в школе не изучали программирование, без гениальных
+<section class="block05">
+    <div class="block05__inner block__inner">
+        <div class="block05__title-wrapper">
+          <h2 class="block05__headline block__headline"> Смотри как обычные люди ...</h2>
+  
+            
+            <p class="block05__text-description longline longline--big">Которые даже в школе не изучали программирование, без гениальных
               навыков в математике, невероятных талантов природных способностей
-            </br>и блата <span class="block-5_bgr">сделали свой прорыв в IT!</span></p>
-          </div>
+              и блата <span class="inverse-text">сделали свой прорыв в IT!</span>
+            </p>
+          
         </div>
-        <div class="block-5_slider">
-            <div class="block-5_slide">
-              <div class="block-5_photo">
-                <img src="./images/block-5/block-5_Nina.jpg" alt="">
-                <p class="block-5_name">Nina Miroshnychenko</p>
+        <div class="block05__slider">
+            <div class="block05__slide">
+              <div class="block05__photo">
+                  <picture class="block05__image">
+                      <source
+                        media="(min-width: 1200px)"
+                        sizes="88px"
+                        srcset="
+                          ../images/block05/block05__slide1-1200.jpg    88w,
+                          ../images/block05/block05__slide1-1200@2x.jpg 176w
+                        "
+                      />
+                      <source
+                        media="(min-width:768px)"
+                        sizes="79px"
+                        srcset="
+                          ../images/block05/block5__slide1-768.jpg 79w,
+                          ../images/block05/block5__slide1-768@2x.jpg 158w
+                        "
+                      />
+                      <source
+                        media="(min-width:300px)"
+                        sizes="55px"
+                        srcset="
+                          ../images/block05/block05__slide1-480.jpg    55w,
+                          ../images/block05/block05__slide1-480@2x.jpg 110w
+                        "
+                      />
+                
+                      <img src="../images/block05/block05__slide1-480.jpg" class="block05__image-inner" alt="avatar" />
+                    </picture>
+                <p class="block05__name">Nina Miroshnychenko</p>
               </div>
-              <p class="block-5_article" id="block-5_scroll">Мені дуже сподобалися курси від GoIT (пройшла першу частину Frontend восени 2017р.)! Я випадково знайшла
+              <p class="block05__article" id="block05__scroll">Мені дуже сподобалися курси від GoIT (пройшла першу частину Frontend восени 2017р.)! Я випадково знайшла
                   ці курси у Facebook. Пройшла пробний тест. Потім зі мною зв’язалися і пояснили всі деталі навчання.
                   Мені було дуже цікаво, але все ж були й сумніви. Проте я пішла на курс і не пошкодувала ні разу!
                   У мене був надзвичайний ментор — Alexander Repeta. Матеріалу було багато, вебінари були насичені,
@@ -25,11 +53,34 @@
                   Навчання було нелегким. Потрібно багато часу щоб розібрати матеріал, інколи і вебінари повторно
                   проглядала. В результаті маю гарні знання та сертифікат ) Також команда GoIT допомогла мені знайти
                   перше місце роботи — за це окремо дуже дякую! Тепер я знаю куди звертатися за знаннями )))
-                  Я рада, що GoIT розширює напрямки курсів — це здорово і дуже потрібно! Дякую!!!</p>
+                  Я рада, що GoIT розширює напрямки курсів — це здорово і дуже потрібно! Дякую!!!
+              </p>
             </div>
+
+            <div class="block05__slider-pointer list ">
+
+                <ul class="block05__pointer-numbering list">
+                  <li class="block05__number">01</li>
+                  <li class="block05__number">02</li>
+                  <li class="block05__number">03</li>
+                </ul>
+                <ul class="block05__pointer-arrows list">
+                  <li class="block05_arrow block05_arrow-prev"> 
+                      <svg class="block05__arrows__icon">
+                        <use href="./images/icons/block05__next.svg"></use>
+                      </svg>
+                  </li>
+                  <li class="block05_arrow block05_arrow-next">
+                      <svg class="block05__arrows__icon">
+                        <use href="./images/sprite/block05__next.svg"></use>
+                      </svg>
+                  </li>      
+                </ul>
+            </div>
+
             <!-- <div class="slide">
               <div class="photo">
-                <img src="./images/block-5/block-5_Ekaterina.jpg" alt="">
+                <img src="./images/block05/block05_Ekaterina.jpg" alt="">
                 <p class="name">Ekaterina Illarionova</p>
               </div>
               <p class="article">Отличные курсы для взрослых людей. У каждой группы есть менеджер который
@@ -46,7 +97,7 @@
             </div>
             <div class="slide">
               <div class="photo">
-                <img src="./images/block-5/block-5_Natalya.jpg" alt="">
+                <img src="./images/block05/block05_Natalya.jpg" alt="">
                 <p class="name">Natalya Ivanova</p>
               </div>
               <p class="article">Обдумуючи те, що відбулося зі мною за останній рік (я почала вчитися у вересні
@@ -66,17 +117,4 @@
         </div>
   
       </div>
-      <div class="block-5_slider_pointer list ">
-
-            <ul class="block-5_pointer_numbering  counter-list-number-cyan list">
-                    <li class="block-5_number counter-list-number-cyan__item"></li>
-                    <li class="block-5_number counter-list-number-cyan__item"></li>
-                    <li class="block-5_number counter-list-number-cyan__item"></li>
-                  </ul>
-                  <ul class="block-5_pointer_arrows">
-                    <img src="./images/block-5/block-5_prev.svg" class="block-5_arrow" alt="">
-                    <img src="./images/block-5/block-5_next.svg" class="block-5_arrow" alt="">
-                  </ul>
-                </div>
-              </div>
-            </section>
+</section>
