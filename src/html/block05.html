@@ -4,7 +4,7 @@
           <h2 class="block05__headline block__headline"> Смотри как обычные люди ...</h2>
   
             
-            <p class="block05__text-description longline longline--big">Которые даже в школе не изучали программирование, без гениальных
+            <p class="block05__text-description longline longline--big text-formatting text-formatting--darkgrey-bold">Которые даже в школе не изучали программирование, без гениальных
               навыков в математике, невероятных талантов природных способностей
               и блата <span class="inverse-text">сделали свой прорыв в IT!</span>
             </p>
@@ -26,8 +26,8 @@
                         media="(min-width:768px)"
                         sizes="79px"
                         srcset="
-                          ../images/block05/block5__slide1-768.jpg 79w,
-                          ../images/block05/block5__slide1-768@2x.jpg 158w
+                          ../images/block05/block05__slide1-768.jpg 79w,
+                          ../images/block05/block05__slide1-768@2x.jpg 158w
                         "
                       />
                       <source
@@ -41,9 +41,10 @@
                 
                       <img src="../images/block05/block05__slide1-480.jpg" class="block05__image-inner" alt="avatar" />
                     </picture>
-                <p class="block05__name">Nina Miroshnychenko</p>
+                <p class="block05__name text-formatting text-formatting--darkgrey-extrabold">Nina Miroshnychenko</p>
               </div>
-              <p class="block05__article" id="block05__scroll">Мені дуже сподобалися курси від GoIT (пройшла першу частину Frontend восени 2017р.)! Я випадково знайшла
+              <div class="block05__textwrap">
+                <p class="block05__article" id="block05__scroll">Мені дуже сподобалися курси від GoIT (пройшла першу частину Frontend восени 2017р.)! Я випадково знайшла
                   ці курси у Facebook. Пройшла пробний тест. Потім зі мною зв’язалися і пояснили всі деталі навчання.
                   Мені було дуже цікаво, але все ж були й сумніви. Проте я пішла на курс і не пошкодувала ні разу!
                   У мене був надзвичайний ментор — Alexander Repeta. Матеріалу було багато, вебінари були насичені,
@@ -55,25 +56,34 @@
                   перше місце роботи — за це окремо дуже дякую! Тепер я знаю куди звертатися за знаннями )))
                   Я рада, що GoIT розширює напрямки курсів — це здорово і дуже потрібно! Дякую!!!
               </p>
+              </div>
+              
             </div>
 
             <div class="block05__slider-pointer list ">
 
                 <ul class="block05__pointer-numbering list">
-                  <li class="block05__number">01</li>
-                  <li class="block05__number">02</li>
-                  <li class="block05__number">03</li>
+                  <li class="block05__number text-formatting text-formatting--darkgrey-extrabold">
+                    <button class="block05__number-button block05__number-button--active">
+                      01
+                  </button></li>
+                  <li class="block05__number text-formatting text-formatting--darkgrey-extrabold"> <button class="block05__number-button">
+                      02
+                  </button></li>
+                  <li class="block05__number text-formatting text-formatting--darkgrey-extrabold"> <button class="block05__number-button">
+                      03
+                  </button></li>
                 </ul>
                 <ul class="block05__pointer-arrows list">
                   <li class="block05_arrow block05_arrow-prev"> 
-                      <svg class="block05__arrows__icon">
-                        <use href="./images/icons/block05__next.svg"></use>
-                      </svg>
+                      <button class="block05__arrow-button">
+                          <img src="./images/block05/block05__next.svg" class="block05__arrow-inner" alt="">
+                      </button>
                   </li>
                   <li class="block05_arrow block05_arrow-next">
-                      <svg class="block05__arrows__icon">
-                        <use href="./images/sprite/block05__next.svg"></use>
-                      </svg>
+                     <button class="block05__arrow-button">
+                        <img src="./images/block05/block05__next.svg" class="block05__arrow-inner" alt="">
+                      </button>    
                   </li>      
                 </ul>
             </div>
