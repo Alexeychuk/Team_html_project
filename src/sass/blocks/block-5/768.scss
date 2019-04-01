@@ -1,0 +1,42 @@
+@media (min-width: 768px) {
+  .block-5_wrapp {
+    display: flex;
+    justify-content: center;
+  }
+
+  .block-5_title {
+    width: 128px;
+    font-size: 23px;
+  }
+  .block-5_title::after {
+    margin-top: 78px;
+    margin-left: -15px;
+
+  }
+  .block-5_rectangle {
+    margin-top: 14px;
+  }
+  .block-5_text-description {
+    width: 117px;
+    font-size: 8.587px;
+  }
+  .block-5_slider {
+    margin-left: 15px;
+
+  }
+  %block-5_slide {
+    height: 244px;
+    margin-top: 33px;
+    width: 330px;
+  }
+  .block-5_article {
+    height: 206px;
+  }
+  .block-5_slider_pointer {
+    margin-top: 233px;
+  }
+
+  .block-5_pointer_arrows {
+    margin-right: 49px;
+  }
+}
