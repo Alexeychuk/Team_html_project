@@ -1,8 +1,8 @@
 <section class="block-5">
-  <div class="block-5_sectioninner">
+  <div class="block__inner">
     <div class="block-5_wrapp">
       <div class="block-5_text">
-        <p class="block-5_title">[ СМОТРИ, КАК ОБЫЧНЫЕ ЛЮДИ ... ]</p>
+        <p class="block-5_title braces"> СМОТРИ, КАК ОБЫЧНЫЕ ЛЮДИ ... </p>
         <div class="block-5_description">
           <p class="block-5_rectangle"></p>
           <p class="block-5_text-description ">Которые даже в школе не изучали программирование, без гениальных
@@ -13,7 +13,10 @@
       <div class="block-5_slider">
           <div class="block-5_slide">
             <div class="block-5_photo">
-              <img src="./images/block-5/block-5_Nina.jpg" alt="">
+              <img class="block-5_photo_Nina"
+                   srcset="./images/block-5/block-5_Nina.jpg 55w, ./images/block-5/block-5_Nina@2x.jpg 110w"
+                   sizes="55px"
+                   src="./images/block-5/block-5_Nina.jpg" alt="">
               <p class="block-5_name">Nina Miroshnychenko</p>
             </div>
             <p class="block-5_article" id="block-5_scroll">Мені дуже сподобалися курси від GoIT (пройшла першу частину Frontend восени 2017р.)! Я випадково знайшла
@@ -27,6 +30,17 @@
                 проглядала. В результаті маю гарні знання та сертифікат ) Також команда GoIT допомогла мені знайти
                 перше місце роботи — за це окремо дуже дякую! Тепер я знаю куди звертатися за знаннями )))
                 Я рада, що GoIT розширює напрямки курсів — це здорово і дуже потрібно! Дякую!!!</p>
+            <div class="block-5_slider_pointer  list">
+              <ul class="block-5_pointer_numbering   list">
+                <li class="block-5_number ">01</li>
+                <li class="block-5_number ">02</li>
+                <li class="block-5_number ">03</li>
+              </ul>
+              <ul class="block-5_pointer_arrows">
+                <img src="./images/block-5/block-5_prev.svg" class="block-5_arrow" alt="">
+                <img src="./images/block-5/block-5_next.svg" class="block-5_arrow" alt="">
+              </ul>
+            </div>
           </div>
           <!-- <div class="slide">
             <div class="photo">
@@ -67,16 +81,15 @@
       </div>
 
     </div>
-    <div class="block-5_slider_pointer list ">
-      <ul class="block-5_pointer_numbering  counter-list-number-cyan list">
-        <li class="block-5_number counter-list-number-cyan__item"></li>
-        <li class="block-5_number counter-list-number-cyan__item"></li>
-        <li class="block-5_number counter-list-number-cyan__item"></li>
-      </ul>
-      <ul class="block-5_pointer_arrows">
-        <img src="./images/block-5/block-5_prev.svg" class="block-5_arrow" alt="">
-        <img src="./images/block-5/block-5_next.svg" class="block-5_arrow" alt="">
-      </ul>
-    </div>
+
   </div>
 </section>
+<!-- list
+counter-list-number-cyan list
+counter-list-number-cyan__item
+counter-list-number-cyan__item
+counter-list-number-cyan__item
+
+
+counter-reset: count-box 0;
+counter-increment: count-box; -->

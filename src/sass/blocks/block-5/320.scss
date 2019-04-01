@@ -5,9 +5,17 @@
   margin-left: 120px;
   display: flex;
   justify-content: center;
-  width: 223px;
+  width: 246px;
   margin-left: auto;
   margin-right: auto;
+   &::before {
+     margin-right: 4px;
+     margin-left: 15px;
+   }
+   &::after {
+     margin-top: 23px;
+     margin-left: 3px;
+   }
 }
 .block-5_description {
   display: flex;
@@ -41,9 +49,14 @@
   margin-bottom: 30px;
   margin-top: -8px;
 }
+.navigation-slider {
+  position: relative;
+}
 .block-5_slider {
   display: flex;
   justify-content: center;
+  position: relative;
+  margin-bottom: 50px;
 }
 .block-5_slide {
   display: flex;
@@ -58,7 +71,7 @@
     margin-right: 17px;
     margin-left: 18px;
 }
-img {
+.block-5_photo_Nina {
   height: 60px;
   margin-bottom: 10px
   // max-width: 139px;
@@ -96,28 +109,35 @@ img {
   justify-content: space-between;
   width: 380px;
   margin-left: 30px;
-  margin-top: -12px;
+  margin-top: 230px;
   margin-left: auto;
   margin-right: auto;
+  position: absolute;
 }
 .block-5_pointer_numbering {
   display: flex;
   text-decoration: none;
+  font-size: 18px;
+  @extend %acrom-bold;
+  margin-left: -22px;
 }
 .block-5_number {
   margin-top: 5px;
-  margin-left: 22px;
+  margin-left: 16px;
   font-size: 10px;
   cursor: pointer;
-}
-.block-5_number:hover {
-  font-size: 15px;
-  margin-top: 0px;
+  text-decoration: none;
+   &:hover {
+     font-size: 15px;
+     margin-top: 0px;
+     text-decoration:line-through;
+   }
+
 }
 .block-5_pointer_arrows {
   display: flex;
   text-decoration: none;
-  margin-right: 11px;
+  margin-right: 50px;
 }
 .block-5_arrow {
   background-color: $blackcolor;
