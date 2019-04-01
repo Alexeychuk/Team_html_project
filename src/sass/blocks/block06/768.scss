@@ -1,0 +1,54 @@
+@media (min-width: 768px) {
+    
+    .block06__img {
+        display: block;
+    }
+
+    .block06__inner {
+        display: flex;
+        flex-direction: row;
+    }
+    .block06__picture-inner {
+    flex-basis: 50%;
+    
+
+    }
+    .block06__picture-inner::before {
+        content: "HARD";
+        font-size: 140px;
+    transform: rotate(90deg);
+    top:169px;
+  
+    }
+
+    .block06__content-inner {
+    flex-basis: 50%;
+    padding: 0;
+    padding-bottom: 58px;
+    padding-top:48px;
+
+    }
+    .block06__headline {
+    padding: 0;
+    margin-bottom: 10px;
+    }
+
+    .block06__subheadline-inner {
+    margin-bottom: 40px;
+    max-width: 65%;
+    }
+
+    .block06__list-title {
+    padding-bottom: 4px;
+    }
+
+    .block06__list-element {
+    margin-bottom: 14px;
+    left:0;
+    max-width: 214px;
+    }
+
+    .block06__list {
+    padding-left: 20px;
+}
+}
