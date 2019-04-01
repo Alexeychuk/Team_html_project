@@ -53,10 +53,9 @@
     &:before{
     content: "";
     position: absolute;
-    border:0.625px solid $maintextcolor;
     background: #fff;
     width: 35px;
-    height: 0.1px;
+    height: 1px;
     left:0;
     top:50%;
     }
