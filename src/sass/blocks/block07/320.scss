@@ -28,7 +28,7 @@
   &__subtitle { 
     margin: 0;
     max-width: 376px; 
-    @include text-family("acrom",800);  
+    @include text-family("acrom",600);  
     @include text-size(13.5px,19.5px);  
   }
 
