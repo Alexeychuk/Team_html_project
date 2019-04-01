@@ -3,8 +3,8 @@
 }
 
 .block06__content-inner {
-    padding: 0 14.5%;
-    margin-bottom: 66px;
+    padding: 0 14.5% 66px;
+    
 
 }
 .block06__img {
@@ -32,4 +32,8 @@
 
 .block06__list-element {
     margin-bottom: 12px;
+}
+
+.block06__list-text {
+    @include text-size(8.75px,13.13px);
 }
