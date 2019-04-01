@@ -15,7 +15,8 @@
     }
 
     .block__headline {
-        font-size: 24px;
+        font-size: 26px;
+        padding-left:0;
     }
 
     .block05__slider{
@@ -38,9 +39,13 @@
         height:100%;
     }
 
+    .block05__number{
+        line-height: 10px;
+    }
+
     .block05__number-button{
         font-size: 10px;
-        line-height: 15px;
+        line-height: 10px;
        
     }
 
@@ -68,6 +73,7 @@
     }
 
     .block05_arrow{
+        padding:2px;
         width:20px;
         height: 20px; 
           
