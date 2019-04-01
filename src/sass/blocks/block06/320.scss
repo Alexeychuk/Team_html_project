@@ -4,8 +4,12 @@
 
 .block06__content-inner {
     padding: 0 14.5% 66px;
+}
+@media (min-width: 320px) and (max-width: 377px) {
+    .block06__content-inner {
+    padding: 0 18px;
     
-
+}
 }
 .block06__img {
     display: none;
@@ -13,6 +17,9 @@
 
 .block06__list-title {
     @extend %text1319;
+
+    padding-bottom: 8px;
+
 }
 
 .block06__headline {
