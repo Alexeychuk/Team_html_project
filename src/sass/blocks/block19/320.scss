@@ -1,5 +1,9 @@
 .block19__registration{
   padding:0 23% 42px 23%;
+
+  @media (max-width:400px){
+    padding:0 13% 42px 13%;
+}
 }
 
 .block19__registration:before{
@@ -58,4 +62,8 @@
 
 .block19__main-text{
   padding:0 18%;
+
+  @media (max-width:400px){
+    padding:0 8%;
+}
 }

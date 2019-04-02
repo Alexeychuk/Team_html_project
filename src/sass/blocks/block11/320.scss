@@ -40,6 +40,10 @@
 .block11__underpicture:before {
   left: 75px;
   top: 8px;
+
+  @media (max-width:440px){
+    left: 45px;
+  }
 }
 
 .block11-course-features__list {

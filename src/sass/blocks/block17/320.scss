@@ -8,10 +8,16 @@
 
 .block17__inner{
   padding:0 56px;
+  @media(max-width:400px){
+    padding:0 18px;
+  }
 }
 
 .block17__bonus-block{
   padding:0 40px 20px;
+  @media(max-width:400px){
+    padding:0 6px 20px;
+  }
 }
 
 .block17__inverse-text{
@@ -54,6 +60,10 @@
 .block17__form{
 padding:55px;
 box-shadow: 0px 8px 14px 0px rgba(0, 0, 0, 0.15); 
+
+@media(max-width:400px){
+  padding:25px 55px;
+}
 }
 
 .block17__form-label{
